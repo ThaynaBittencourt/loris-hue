@@ -1,12 +1,11 @@
 <template>
   <span class="xl:lg-3 relative mx-1 lg:mx-2.5">
+    <span class="absolute opacity-30 dark:opacity-70">{{ word }}</span>
     <span
-      class="absolute opacity-30 dark:opacity-60 select-none pointer-events-none"
+      :style="{ opacity: computedOpacity }"
+      class="text-black dark:text-white"
     >
-      {{ word }}</span
-    >
-    <span :style="{ opacity: computedOpacity }" class="text-white">
-      {{ word }}&nbsp;
+      {{ word }}
     </span>
   </span>
 </template>

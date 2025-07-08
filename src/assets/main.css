@@ -133,3 +133,26 @@ html.dark {
 html.light {
   color-scheme: light;
 }
+.neon-button {
+  background-color: #d5417d;
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 9999px;
+  text-align: center;
+  font-weight: 500;
+  box-shadow:
+    0 0 3px #ff4da6,
+    0 0 6px #ff4da6,
+    0 0 10px #ff4da6,
+    0 0 20px #ff4da6;
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.neon-button:hover {
+  background-color: #ff4da6;
+  box-shadow:
+    0 0 6px #ff4da6,
+    0 0 12px #ff4da6,
+    0 0 18px #ff4da6,
+    0 0 30px #ff4da6;
+}

@@ -1,5 +1,5 @@
 <template>
-  <div class="text-6xl font-bold" :class="props.class">
+  <div class="text-7xl font-bold text" :class="props.class">
     <span class="relative inline-block">
       <template v-for="sparkle in sparkles" :key="sparkle.id">
         <!-- Animated star SVG with fade, scale, and rotation effects -->
